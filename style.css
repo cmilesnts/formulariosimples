@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter',sans-serif;
+}
+
+body {
+   background: #0c0ce94d;
+}
+
+.titulo{
+    color: rgb(247, 247, 247);
+}
+
+.titulo{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name{
+    color: rgb(94, 6, 175);
+    
+ 
+}
+
+.gene-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 30px;
+}
+
+.nome{
+    color: rgb(94, 6, 175);
+}
+
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.login-button:hover{
+    background-color: rgb(94, 6, 175)
+}
+
+.button{
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'inter', sans-serif;
+   background-color:rgb(94, 6, 175); 
+
+}
+
+.button:hover{
+    background-color: rgb(154, 92, 212);;
+}
+
+.button a {    
+    text-decoration: none;
+    font-weight: 400;                                            
+    color: rgb(255, 255, 255);
+}
